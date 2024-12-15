@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://james-noeckel.github.io/sitemap.xml
+Sitemap: https://ShnitzelKiller.github.io/sitemap.xml
