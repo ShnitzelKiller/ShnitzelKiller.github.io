@@ -1,115 +1,82 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@misc{view2cad,
+title = {View-centric CAD Reconstruction (under review, title pending)},
+author = {Noeckel, James and Jones, Benjamin and Curless, Brian and Schulz, Adriana},
+year = {2024},
+month = {12},
+selected = {true},
+preview = {bloob.webp}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{farec,
+author = {Noeckel, James and Zhao, Haisen and Curless, Brian and Schulz, Adriana},
+year = {2021},
+month = {08},
+pages = {301-314},
+title = {Fabrication‐Aware Reverse Engineering for Carpentry},
+abstract = {We propose a novel method to generate fabrication blueprints from images of carpentered items. While 3D reconstruction from images is a well-studied problem, typical approaches produce representations that are ill-suited for computer-aided design and fabrication applications. Our key insight is that fabrication processes define and constrain the design space for carpentered objects, and can be leveraged to develop novel reconstruction methods. Our method makes use of domain-specific constraints to recover not just valid geometry, but a semantically valid assembly of parts, using a combination of image-based and geometric optimization techniques. We demonstrate our method on a variety of wooden objects and furniture, and show that we can automatically obtain designs that are both easy to edit and accurate recreations of the ground truth. We further illustrate how our method can be used to fabricate a physical replica of the captured object as well as a customized version, which can be produced by directly editing the reconstructed model in CAD software. },
+volume = {40},
+journal = {Computer Graphics Forum},
+doi = {10.1111/cgf.14375},
+selected = {true},
+preview = {bench.webp}
+} 
+
+@misc{mates2motion,
+      title={Mates2Motion: Learning How Mechanical CAD Assemblies Work}, 
+      author={James Noeckel and Benjamin T. Jones and Karl Willis and Brian Curless and Adriana Schulz},
+      abstract={We describe our work on inferring the degrees of freedom between mated parts in mechanical assemblies using deep learning on CAD representations. We train our model using a large dataset of real-world mechanical assemblies consisting of CAD parts and mates joining them together. We present methods for re-defining these mates to make them better reflect the motion of the assembly, as well as narrowing down the possible axes of motion. We also conduct a user study to create a motion-annotated test set with more reliable labels.},
+      year={2023},
+      eprint={2208.01779},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2208.01779}, 
+      preview={mates.jpg}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{cadreferences,
+author = {Jones, Benjamin and Noeckel, James and Kodnongbua, Milin and Baran, Ilya and Schulz, Adriana},
+title = {B-rep Matching for Collaborating Across CAD Systems},
+year = {2023},
+issue_date = {August 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {42},
+number = {4},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3592125},
+doi = {10.1145/3592125},
+abstract = {Large Computer-Aided Design (CAD) projects usually require collaboration across many different CAD systems as well as applications that interoperate with them for manufacturing, visualization, or simulation. A fundamental barrier to such collaborations is the ability to refer to parts of the geometry (such as a specific face) robustly under geometric and/or topological changes to the model. Persistent referencing schemes are a fundamental aspect of most CAD tools, but models that are shared across systems cannot generally make use of these internal referencing mechanisms, creating a challenge for collaboration. In this work, we address this issue by developing a novel learning-based algorithm that can automatically find correspondences between two CAD models using the standard representation used for sharing models across CAD systems: the Boundary-Representation (B-rep). Because our method works directly on B-reps it can be generalized across different CAD applications enabling collaboration.},
+journal = {ACM Trans. Graph.},
+month = jul,
+articleno = {104},
+numpages = {13},
+keywords = {computer-aided design, parametric modeling, geometric correspondence, machine learning},
+preview = {matching.png}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+
+@article{cloth,
+author = {Khungurn, Pramook and Wu, Rundong and Noeckel, James and Marschner, Steve and Bala, Kavita},
+title = {Fast rendering of fabric micro-appearance models under directional and spherical gaussian lights},
+year = {2017},
+issue_date = {December 2017},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {36},
+number = {6},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3130800.3130829},
+doi = {10.1145/3130800.3130829},
+abstract = {Rendering fabrics using micro-appearance models---fiber-level microgeometry coupled with a fiber scattering model---can take hours per frame. We present a fast, precomputation-based algorithm for rendering both single and multiple scattering in fabrics with repeating structure illuminated by directional and spherical Gaussian lights.Precomputed light transport (PRT) is well established but challenging to apply directly to cloth. This paper shows how to decompose the problem and pick the right approximations to achieve very high accuracy, with significant performance gains over path tracing. We treat single and multiple scattering separately and approximate local multiple scattering using precomputed transfer functions represented in spherical harmonics. We handle shadowing between fibers with precomputed per-fiber-segment visibility functions, using two different representations to separately deal with low and high frequency spherical Gaussian lights.Our algorithm is designed for GPU performance and high visual quality. Compared to existing PRT methods, it is more accurate. In tens of seconds on a commodity GPU, it renders high-quality supersampled images that take path tracing tens of minutes on a compute cluster.},
+journal = {ACM Trans. Graph.},
+month = nov,
+articleno = {232},
+numpages = {15},
+keywords = {rendering, precomputed radiance transfer, cloth},
+preview = {cloth.png}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+  
