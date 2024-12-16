@@ -100,11 +100,11 @@
 	"summary": "There is no spoon."
     }],
     "publications": [{
-	"name": "Publication",
-	"publisher": "Company",
-	"releaseDate": "2014-10-01",
-	"url": "https://publication.com",
-	"summary": "Description…"
+	"name": "Fabrication-Aware Reverse Engineering for Carpentry",
+	"publisher": "Computer Graphics Forum",
+	"releaseDate": "2021-8-01",
+	"url": "https://grail.cs.washington.edu/projects/farec/",
+	"summary": "A novel method to generate fabrication blueprints from images of carpentered items."
     }],
     "skills": [{
 	"name": "Web Development",
