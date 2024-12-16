@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I signed the offer from Apple! And finally wrapping up grad school---these are exciting times.
+I will be joining the team at Apple as a software engineer! Grad school is finally wrapping up.

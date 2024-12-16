@@ -1,10 +1,9 @@
 {
     "basics": {
-	"name": "James Noeckel, PhD",
+	"name": "James W. Noeckel, PhD",
 	"label": "Graphics Software Engineer",
 	"image": "",
 	"email": "jamesn8@cs.washington.edu",
-	"phone": "(541) 513-2856",
 	"url": "jamesnoeckel.com",
 	"summary": "I obtained my PhD from the GRAIL lab in the Paul G. Allen School of Computer Science and Engineering at the University of Washington, advised by Brian Curless and Adriana Schulz. My research has focused reverse engineering 3D designs of objects through the use of domain-specific geometry representations. In particular, I am fascinated by the ability of such representations to enable precise reconstruction with incomplete observations, especially alongside advances in deep learning techniques for 3D vision / shape modeling. I’ve published techniques to recover computer-aided design (CAD) models from measured data. During my undergraduate studies at Cornell University, I worked with Kavita Bala on photorealistic cloth rendering and Timur Dogan on large-scale light radiance simulation in urban environments. I also minored in physics; I have retained a particular interest in realtime graphics and physics simulation techniques thanks to my graphics / physics background, with various side projects exploring rendering, physics, and geometry techniques.",
 	"location": {
