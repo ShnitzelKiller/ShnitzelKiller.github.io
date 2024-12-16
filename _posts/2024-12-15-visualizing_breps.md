@@ -86,4 +86,12 @@ This modifier has many properties to control the state of the visualization, all
 </div>
 
 Remember how the Creased Boolean node stores extra boundary information in the edge crease data? Well, you can crease edges manually with shift+E, too, if you want those edges to be included in the wireframe. In this example, we probably want to visualize the boundary between the bevel surface and the planar surfaces, since in CAD software these would be represented by distinct parametric surfaces (cylinder and planes, respectively). 
-{% include figure.liquid loading="eager" path="assets/img/angle2.png" class="img-fluid rounded z-depth-1"}
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/creased4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/angle2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
