@@ -36,6 +36,14 @@
 		 "endDate": "2024-12-31",
 		 "summary": "Working as part of GRAIL and CDG labs advised by Brian Curless and Adriana Schulz, conducting research on methods for editable scene reconstruction with a focus on reverse engineering designs of manufactured objects. Previously published work in fabrication-aware reconstruction of carpented objects and inferring the motion of CAD assemblies using physics and deep learning. Most recently submitted a paper on 3D reconstruction of engineering CAD models from partial scans using deep learning and geometry optimization."
 	     },
+		 {
+			"name": "University of Washington",
+			"position": "Teaching Assistant",
+			"url": "https://www.cs.washington.edu/",
+			"startDate": "2023-01-03",
+			"endDate": "2023-06-09",
+			"summary": "Prepared course assignment codebase and other materials, conducted office hours, and graded assignments / projects in CSE 556: Computational Fabrication and CSE 599: Special Topics in Computational Design."
+			},
 	     {
 		 "name": "Meta",
 		 "position": "Research Scientist Intern",
@@ -76,6 +84,16 @@
 		 "endDate": "2016-5-1",
 		 "summary": "Developed real-time implementation for a cloth rendering project under Prof. Kavita Bala (http://www.cs.cornell.edu/projects/ctcloth/), leading to publication."
 	    }],
+	"volunteer": [
+    {
+      "organization": "University of Washington CS Open House",
+      "location": "Seattle, WA",
+      "position": "Presenter",
+      "startDate": "2022-12",
+      "endDate": "2022-12",
+      "summary": "Presented my published work on predicting mates CAD mechanical assemblies to undergraduates and high school students to spark interest in CS research."
+    }
+  ],
     "education": [
 	{
 	    "institution": "University of Washington",
