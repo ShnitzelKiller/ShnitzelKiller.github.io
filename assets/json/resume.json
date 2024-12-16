@@ -6,7 +6,7 @@
 	"email": "jamesn8@cs.washington.edu",
 	"phone": "(541) 513-2856",
 	"url": "jamesnoeckel.com",
-	"summary": "I obtained my PhD from the GRAIL lab in the Paul G. Allen School of Computer Science and Engineering at the University of Washington, advised by Brian Curless and Adriana Schulz. My research has focused reverse engineering 3D designs of objects through the use of domain-specific geometry representations. In particular, I am fascinated by the ability of such representations to enable precise reconstruction with incomplete observations, especially alongside advances in deep learning techniques for 3D vision / shape modeling. I’ve published techniques to recover computer-aided design (CAD) models from measured data.\\n\\nDuring my undergraduate studies at Cornell University, I worked with Kavita Bala on photorealistic cloth rendering and Timur Dogan on large-scale light radiance simulation in urban environments. I also minored in physics; I have retained a particular interest in realtime graphics and physics simulation techniques thanks to my graphics / physics background, with various side projects exploring rendering, physics, and geometry techniques.",
+	"summary": "I obtained my PhD from the GRAIL lab in the Paul G. Allen School of Computer Science and Engineering at the University of Washington, advised by Brian Curless and Adriana Schulz. My research has focused reverse engineering 3D designs of objects through the use of domain-specific geometry representations. In particular, I am fascinated by the ability of such representations to enable precise reconstruction with incomplete observations, especially alongside advances in deep learning techniques for 3D vision / shape modeling. I’ve published techniques to recover computer-aided design (CAD) models from measured data. During my undergraduate studies at Cornell University, I worked with Kavita Bala on photorealistic cloth rendering and Timur Dogan on large-scale light radiance simulation in urban environments. I also minored in physics; I have retained a particular interest in realtime graphics and physics simulation techniques thanks to my graphics / physics background, with various side projects exploring rendering, physics, and geometry techniques.",
 	"location": {
 	    "address": "3311 Chaucer Way",
 	    "postalCode": "OR 97405",
@@ -32,7 +32,7 @@
 		 "name": "University of Washington",
 		 "position": "PhD Researcher",
 		 "url": "https://www.cs.washington.edu/",
-		 "startDate": "2017-09-01",
+		 "startDate": "2017-09-16",
 		 "endDate": "2024-12-31",
 		 "summary": "Working as part of GRAIL and CDG labs advised by Brian Curless and Adriana Schulz, conducting research on methods for editable scene reconstruction with a focus on reverse engineering designs of manufactured objects. Previously published work in fabrication-aware reconstruction of carpented objects and inferring the motion of CAD assemblies using physics and deep learning. Most recently submitted a paper on 3D reconstruction of engineering CAD models from partial scans using deep learning and geometry optimization."
 	     },
@@ -82,7 +82,7 @@
 	    "url": "https://institution.com",
 	    "area": "Computer Science",
 	    "studyType": "PhD",
-	    "startDate": "2017-09-01",
+	    "startDate": "2017-09-16",
 	    "endDate": "2024-12-31"
 	},
 	{
@@ -94,50 +94,136 @@
 	    "endDate": "2017-5-24"
 	}],
     "awards": [{
-	"title": "UW Reality Lab Researcher",
-	"date": "2019-11-01",
-	"awarder": "Company",
-	"summary": "There is no spoon."
-    }],
+	"title": "UW Reality Lab Fundee",
+	"date": "2022-4-20",
+	"awarder": "University of Washington",
+	"summary": "For the years of 2019 - 2022, I successfully pitched projects to the board of industry researchers (including Paul Debevec, Michael Cohen, Michael Abrash), securing research funding."
+    },
+	{
+		"title": "Wissner-Slivka Endowed Fellowship",
+		"date": "2017-9-16",
+		"awarder": "Ben and Lisa Wissner-Slivka",
+		"summary": "I was awarded a Computer Science & Engineering First-Year Fellowship upon admission to the UW PhD program."
+		},
+		{
+			"title": "Phi Beta Kappa Society Membership",
+			"date": "2017-2-20",
+			"awarder": "Phi Beta Kappa Society",
+			"summary": "I was recognized for my undergraduate academic achievement at Cornell and admitted into PBK."
+			}],
     "publications": [{
 	"name": "Fabrication-Aware Reverse Engineering for Carpentry",
 	"publisher": "Computer Graphics Forum",
-	"releaseDate": "2021-8-01",
+	"releaseDate": "2021-8",
 	"url": "https://grail.cs.washington.edu/projects/farec/",
 	"summary": "A novel method to generate fabrication blueprints from images of carpentered items."
     }],
     "skills": [{
-	"name": "Web Development",
+	"name": "Computer Graphics",
 	"level": "Master",
 	"keywords": [
-	    "HTML",
-	    "CSS",
-	    "JavaScript"
+	    "Rendering",
+	    "Simulation",
+	    "Geometry",
+		"Fabrication"
 	]
-    }],
+    },
+	{
+		"name": "Computer Vision",
+		"level": "Master",
+		"keywords": [
+			"3D Reconstruction",
+			"Deep Learning",
+			"Classical Techniques"
+		]
+	},
+	{
+		"name": "Software Engineering",
+		"level": "Master",
+		"keywords": [
+			"C++",
+			"Python",
+			"Java",
+			"C#"
+		]
+	},
+	{
+		"name": "GPU Programming",
+		"level": "Master",
+		"keywords": [
+			"CUDA",
+			"OpenGL",
+			"GLSL",
+			"HLSL"
+		]
+	},
+	{
+		"name": "Scientific Computing",
+		"level": "Advanced",
+		"keywords": [
+			"Mathematica",
+			"Matlab",
+			"Julia",
+			"Scipy",
+			"Optimization",
+			"Numerical Analysis",
+			"Computational Physics"
+		]
+	},
+	{
+		"name": "Deep Learning",
+		"level": "Advanced",
+		"keywords": [
+			"Pytorch",
+			"Graph Learning",
+			"Computer Vision",
+			"Segmentation",
+			"Implicit Neural Representations",
+			"Generative Models",
+			"Robotics Mapping / Navigation"
+		]
+	},
+	{
+		"name": "Art",
+		"level": "Intermediate",
+		"keywords": [
+			"3D Modeling",
+			"Drawing",
+			"Animation"
+		]
+	},
+	{
+		"name": "Research",
+		"level": "Master",
+		"keywords": [
+			"Technical Writing",
+			"Scientific Publication",
+			"Implementation / Engineering"
+		]
+	}
+	],
     "languages": [{
 	"language": "English",
 	"fluency": "Native speaker"
-    }],
-    "interests": [{
-	"name": "Wildlife",
-	"keywords": [
-	    "Ferrets",
-	    "Unicorns"
-	]
-    }],
+    },
+	{
+	"language": "German",
+	"fluency": "Intermediate"
+	}],
     "references": [{
-	"name": "Jane Doe",
-	"reference": "Reference…"
-    }],
-    "projects": [{
-	"name": "Project",
-	"startDate": "2019-01-01",
-	"endDate": "2021-01-01",
-	"description": "Description...",
-	"highlights": [
-	    "Won award at AIHacks 2016"
-	],
-	"url": "https://project.com/"
-    }]
+	"name": "Dan Zeng",
+	"reference": "My former manager at Meta."
+    },
+	{
+		"name": "Adriana Schulz",
+		"reference": "My PhD co-advisor at UW."
+		},
+		{
+			"name": "Brian Curless",
+			"reference": "My PhD advisor at UW."
+			},
+			{
+				"name": "Kavita Bala",
+				"reference": "My mentor and undergraduate research advisor at Cornell."
+				}]
 }
