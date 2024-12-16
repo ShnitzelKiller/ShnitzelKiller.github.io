@@ -71,7 +71,9 @@ This is the modifier that does the heavy lifting. It should be placed *after* th
     </div>
 </div>
 
-This modifier has many properties to control the state of the visualization, all of which can be animated as usual. Most pertinent is the **explosion factor**, which controls how "exploded" the faces are from the center. You can also move the center from which they emanate by dragging the transform gizmo which appears in the 3D viewport with the object selected, or changing the **explode origin** property in the modifier panel. Another useful property is the **angle threshold**, which controls the angle (in radians) at which to consider a face part of the wireframe (the larger the value, the more edges will be "smoothed" out and rejected from the wireframe).
+This modifier has many properties to control the state of the visualization, all of which can be animated as usual. Most pertinent is the **explosion factor**, which controls how "exploded" the faces are from the center. You can also move the center from which they emanate by dragging the transform gizmo which appears in the 3D viewport with the object selected, or changing the **explode origin** property in the modifier panel.
+
+Another useful property is the **angle threshold**, which controls the angle (in radians) at which to consider a face part of the wireframe (the larger the value, the more edges will be "smoothed" out and rejected from the wireframe).
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -95,3 +97,9 @@ Remember how the Creased Boolean node stores extra boundary information in the e
     </div>
 </div>
 
+# Closing remarks
+Using these modifiers, you can create CAD-style visualizations in Blender, even if you don't have a true CAD model, only a mesh (as often happens). What's more, the properties exposed by these modifiers can be freely animated thanks to Blender's flexibility, creating many creative effects beyond the realm of instructive visualization.
+
+<div class="col-sm mt-3 mt-md-0">
+{% include video.liquid path="assets/video/shaking4.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+</div>
