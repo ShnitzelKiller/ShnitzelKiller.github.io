@@ -112,12 +112,39 @@
 			"summary": "I was recognized for my undergraduate academic achievement at Cornell and admitted into PBK."
 			}],
     "publications": [{
+		"name": "Deep CAD reconstruction from approximate RGB-D data (Under review, not working title)",
+		"publisher": "TBA",
+		"releaseDate": "2024-2",
+		"summary": "Robust reconstruction of CAD geometry from noisy measurements using deep learning and geometry optimization."
+		},
+		{
+		"name": "Mates2Motion: Learning How Mechanical CAD Assemblies Work",
+		"publisher": "ICML",
+		"releaseDate": "2022-8",
+		"url": "https://grail.cs.washington.edu/projects/mates2motion/",
+		"summary": "Understanding functionality through predicted degrees of freedom in mechanical CAD assemblies."
+		},
+		{
+		"name": "B-rep Matching for Collaborating Across CAD Systems",
+		"publisher": "ACM Trans. Graph.",
+		"releaseDate": "2023-7",
+		"url": "https://doi.org/10.1145/3592125",
+		"summary": "A learning-based algorithm to automatically find correspondences between CAD models to enable collaborative editing applications."
+		},
+		{
 	"name": "Fabrication-Aware Reverse Engineering for Carpentry",
 	"publisher": "Computer Graphics Forum",
 	"releaseDate": "2021-8",
 	"url": "https://grail.cs.washington.edu/projects/farec/",
 	"summary": "A novel method to generate fabrication blueprints from images of carpentered items."
-    }],
+    },
+	{
+		"name": "Fast rendering of fabric micro-appearance models under directional and spherical gaussian lights",
+		"publisher": "ACM Trans. Graph.",
+		"releaseDate": "2016-11",
+		"url": "https://www.cs.cornell.edu/projects/ctcloth/",
+		"summary": "Physically-based rendering of cloth using fiber-level microgeometry and scattering model."
+		}],
     "skills": [{
 	"name": "Computer Graphics",
 	"level": "Master",
