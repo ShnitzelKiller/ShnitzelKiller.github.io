@@ -7,6 +7,7 @@ nav: true
 nav_order: 2
 
 ---
+# Real-time shaders
 
 {% include figure.liquid loading="eager" path="assets/img/hires_donug.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
@@ -143,6 +144,8 @@ nav_order: 2
         </div>
     </div>
 </div>
+
+---
 
 # Drawings
 {% include figure.liquid loading="eager" path="assets/img/station.PNG" class="img-fluid rounded z-depth-1" zoomable=true %}
