@@ -182,13 +182,15 @@
 		]
 	},
 	{
-		"name": "Software Engineering",
+		"name": "Programming",
 		"level": "Master",
 		"keywords": [
 			"C++",
 			"Python",
 			"Java",
-			"C#"
+			"C#",
+			"Lisp / Racket",
+			"Bash"
 		]
 	},
 	{
