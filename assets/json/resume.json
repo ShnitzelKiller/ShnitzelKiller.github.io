@@ -254,6 +254,25 @@
 	"language": "German",
 	"fluency": "Intermediate"
 	}],
+	"interests": [
+    {
+      "name": "Drawing",
+      "keywords": [
+        "Traditional",
+        "Digital",
+		"Animation"
+      ]
+    },
+	{
+		"name": "Computer Graphics",
+		"keywords": [
+		  "Shader Programming",
+		  "Procedural Animation",
+		  "3D Modeling",
+		  "Videogame Modding"
+		]
+	  }
+  ],
     "references": [{
 	"name": "Dan Zeng",
 	"reference": "My former manager at Meta."
