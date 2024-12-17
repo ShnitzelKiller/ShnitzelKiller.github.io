@@ -143,3 +143,24 @@ nav_order: 2
         </div>
     </div>
 </div>
+
+# Drawings
+{% include figure.liquid loading="eager" path="assets/img/station.PNG" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Station.
+</div>
+
+{% include figure.liquid loading="eager" path="assets/img/gasworks.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Gasworks.
+</div>
+
+{% include figure.liquid loading="eager" path="assets/img/rainier.PNG" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Paradise Park.
+</div>
+
+{% include figure.liquid loading="eager" path="assets/img/foster.PNG" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Foster Island.
+</div>
