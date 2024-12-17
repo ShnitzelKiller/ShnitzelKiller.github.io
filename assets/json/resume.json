@@ -90,13 +90,13 @@
       "position": "Presenter",
       "startDate": "2022-12",
       "endDate": "2022-12",
-      "summary": "Presented my published work on predicting mates CAD mechanical assemblies to undergraduates and high school students to spark interest in CS research."
+      "summary": "Presented my published work on predicting motion of mechanical CAD assemblies to undergraduates and high school students to spark interest in CS research."
     }
   ],
     "education": [
 	{
 	    "institution": "University of Washington",
-	    "url": "https://institution.com",
+	    "url": "https://www.cs.washington.edu/",
 	    "area": "Computer Science",
 	    "studyType": "PhD",
 	    "startDate": "2017-09-16",
@@ -182,13 +182,15 @@
 		]
 	},
 	{
-		"name": "Software Engineering",
+		"name": "Programming",
 		"level": "Master",
 		"keywords": [
 			"C++",
 			"Python",
 			"Java",
-			"C#"
+			"C#",
+			"Lisp / Racket",
+			"Bash"
 		]
 	},
 	{
@@ -254,6 +256,25 @@
 	"language": "German",
 	"fluency": "Intermediate"
 	}],
+	"interests": [
+    {
+      "name": "Drawing",
+      "keywords": [
+        "Traditional",
+        "Digital",
+		"Animation"
+      ]
+    },
+	{
+		"name": "Computer Graphics",
+		"keywords": [
+		  "Shader Programming",
+		  "Procedural Animation",
+		  "3D Modeling",
+		  "Videogame Modding"
+		]
+	  }
+  ],
     "references": [{
 	"name": "Dan Zeng",
 	"reference": "My former manager at Meta."
