@@ -24,6 +24,11 @@ nav_order: 2
     Shining jacks. What are jacks? I don't know. View on <a href="https://www.shadertoy.com/view/wlsyRN">Shadertoy</a>
 </div>
 
+{% include figure.liquid loading="eager" path="assets/img/tray.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Tray racer. On their way to the beta mall. View on <a href="https://www.shadertoy.com/view/tstSDs">Shadertoy</a>
+</div>
+
 {% include figure.liquid loading="eager" path="assets/img/glassrefuge.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
     Glass refuge. View on <a href="https://www.shadertoy.com/view/tsySRh">Shadertoy</a>
