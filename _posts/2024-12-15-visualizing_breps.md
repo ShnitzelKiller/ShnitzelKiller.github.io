@@ -95,6 +95,12 @@ Remember how the Creased Boolean node stores extra boundary information in the e
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/angle2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/angle3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Creases added in edit mode (left) show up as additional edges in the wireframe. Any enclosed regions are automatically treated as separate faces in the exploded configuration.
 </div>
 
 # Closing remarks
