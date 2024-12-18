@@ -147,6 +147,16 @@ nav_order: 2
 
 ---
 
+# Procedural geometry
+<div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="assets/video/coral_cropped.webm" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    <div class="caption">
+        Sprouting polyps created with simulation nodes in Blender
+    </div>
+</div>
+
+---
+
 # Drawings
 {% include figure.liquid loading="eager" path="assets/img/station.PNG" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
