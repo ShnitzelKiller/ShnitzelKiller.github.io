@@ -34,6 +34,15 @@ nav_order: 2
     Font forest, comprised of SDF fonts cubically interpolated along the third dimension to form pillars of interconnected glyphs. View on <a href="https://www.shadertoy.com/view/3stXDX">Shadertoy</a>
 </div>
 
+<div class="col-sm mt-3 mt-md-0">
+<center>
+    {% include video.liquid path="assets/video/tubular_short.webm" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=1 %}
+</center>
+</div>
+<div class="caption">
+    Tubular world. View on <a href="https://www.shadertoy.com/view/wsySDV">Shadertoy</a>
+</div>
+
 {% include figure.liquid loading="eager" path="assets/img/pipes.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
     Living pipes. View on <a href="https://www.shadertoy.com/view/MtScz3">Shadertoy</a> for best experience; the pipes animate according to volumetric cellular automata rules based on Conway's Game of Life.
