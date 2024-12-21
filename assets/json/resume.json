@@ -111,23 +111,30 @@
 	    "endDate": "2017-5-24"
 	}],
     "awards": [{
-	"title": "UW Reality Lab Fundee",
-	"date": "2022-4-20",
-	"awarder": "University of Washington",
-	"summary": "For the years of 2019 - 2022, I successfully pitched projects to the board of industry researchers (including Paul Debevec, Michael Cohen, Michael Abrash), securing research funding."
-    },
-	{
+		"title": "UW Reality Lab Fundee",
+		"date": "2022-4",
+		"awarder": "University of Washington",
+		"summary": "For the years of 2019 - 2022, I successfully pitched projects to the board of industry researchers (including Paul Debevec, Michael Cohen, Michael Abrash), securing research funding."
+		},
+		{
 		"title": "Wissner-Slivka Endowed Fellowship",
-		"date": "2017-9-16",
-		"awarder": "Ben and Lisa Wissner-Slivka",
+		"date": "2017-9",
+		"awarder": "University of Washington",
 		"summary": "I was awarded a Computer Science & Engineering First-Year Fellowship upon admission to the UW PhD program."
 		},
 		{
 			"title": "Phi Beta Kappa Society Membership",
-			"date": "2017-2-20",
+			"date": "2017-2",
 			"awarder": "Phi Beta Kappa Society",
 			"summary": "I was recognized for my undergraduate academic achievement at Cornell and admitted into PBK."
-			}],
+		},
+		{
+			"title": "Dean's List",
+			"date": "2016",
+			"awarder": "Cornell University",
+			"summary": "I was on the Dean's List for academic achievement from the years 2013 to 2016."
+		}
+	],
     "publications": [{
 		"name": "Deep CAD reconstruction from approximate RGB-D data (Under review, not working title)",
 		"publisher": "TBA",
