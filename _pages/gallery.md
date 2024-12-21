@@ -12,13 +12,19 @@ nav_order: 2
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/donut_short.webm" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=1 %}
+        <div class="caption">
+            View on <a href="https://www.shadertoy.com/view/tls3WB">Shadertoy</a>
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/hires_donug.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+            View on <a href="https://www.shadertoy.com/view/wlXcR7">Shadertoy</a>
+        </div>
     </div>
 </div>
 <div class="caption">
-    Recursive donut, animated (left) and path traced (right) with luminosity based on surface curvature. View on <a href="https://www.shadertoy.com/view/wlXcR7">Shadertoy</a>
+    Recursive donut, animated (left) and path traced (right) with luminosity based on surface curvature.
 </div>
 
 {% include figure.liquid loading="eager" path="assets/img/floodedcity.png" class="img-fluid rounded z-depth-1" zoomable=true %}
