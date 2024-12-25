@@ -11,7 +11,7 @@ nav_order: 2
 
 {% include figure.liquid loading="eager" path="assets/img/nebula.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
-    Christmas Nebula. View on <a href="https://www.shadertoy.com/view/lXdcDH">Shadertoy</a>
+    Christmas Ocean. View on <a href="https://www.shadertoy.com/view/lXdcDH">Shadertoy</a>
 </div>
 
 <div class="row mt-3">
