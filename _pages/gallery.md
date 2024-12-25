@@ -9,6 +9,11 @@ nav_order: 2
 ---
 # Real-time shaders
 
+{% include figure.liquid loading="eager" path="assets/img/nebula.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Christmas Nebula. View on <a href="https://www.shadertoy.com/view/lXdcDH">Shadertoy</a>
+</div>
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/donut_short.webm" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=1 %}
