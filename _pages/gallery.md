@@ -172,12 +172,6 @@ nav_order: 2
 ### Strange crystals
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/crystal1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-        <div class="caption">
-            View on <a href="https://www.shadertoy.com/view/3dGXD1">Shadertoy</a>
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/crystal2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
             View on <a href="https://www.shadertoy.com/view/WsGXWm">Shadertoy</a>
