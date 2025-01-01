@@ -1,6 +1,6 @@
 ---
 layout: page
-title: art
+title: gallery
 permalink: /gallery/
 subtitle: Digital artworks
 nav: true
@@ -40,6 +40,11 @@ nav_order: 2
 </div>
 <div class="caption">
     Recursive donut, animated (left) and path traced (right) with luminosity based on surface curvature.
+</div>
+
+{% include figure.liquid loading="eager" path="assets/img/scaffolds.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">
+    Scaffold megastructure. View on <a href="https://www.shadertoy.com/view/MXtyRf">Shadertoy</a>
 </div>
 
 {% include figure.liquid loading="eager" path="assets/img/floodedcity.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -88,11 +93,6 @@ nav_order: 2
 {% include figure.liquid loading="eager" path="assets/img/voxcity.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">
     Another city. View on <a href="https://www.shadertoy.com/view/flySR1">Shadertoy</a>
-</div>
-
-{% include figure.liquid loading="eager" path="assets/img/voxcity2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-<div class="caption">
-    Another city. View on <a href="https://www.shadertoy.com/view/WtscWr">Shadertoy</a>
 </div>
 
 ### Physics & simulation
